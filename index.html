@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather News</title>
+  </head>
+  <body>
+
+  <div class="container">
+    <!-- Header Section -->
+    <header>
+      <h1>Weather News</h1>
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Enter City Name" />
+        <button onclick="getWeather()">Get Weather</button>
+      </div>
+    </header>
+
+    <!-- Weather Result Section -->
+    <div id="weather-result" class="weather-result">
+      <!-- Data will be dynamically loaded here -->
+    </div>
+
+    <!-- Error Message Section -->
+    <div id="error-message" class="error-message"></div>
+  </div>
+<script src="app.js"></script>
+  
+    </body>
+</html>
